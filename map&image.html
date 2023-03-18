@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Map and 360 Images</title>
+  <!-- Include OpenLayers and panolens.js libraries -->
+  <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+  <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/105/three.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/panolens@0.11.0/build/panolens.min.js"></script>
+
+  <!-- Define CSS style for left and right divs -->
+  <style>
+    #left {
+      width: 50%;
+      height: 98vh;
+      float: left;
+    }
+    #right {
+      width: 50%;
+      height: 100vh;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <!-- Define two divs for left and right sections -->
+  <div id="left"></div>
+  <div id="right"></div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
